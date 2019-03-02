@@ -1,1 +1,1 @@
-my stupid website: https://oliverklingefjord.com
+my stupid website: http://oliverklingefjord.com
