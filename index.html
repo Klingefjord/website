@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87580507-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-87580507-3');
+    </script>
+
+    <title>Oliver Klingefjord</title>
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+
+    <!-- Meta tags -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="Description" content="I'm a Hyper Island student and developer passionate about building things with real value." />
+    <meta property="og:title" content="Oliver Klingefjord"/>
+    <meta property="og:url" content="http://klingefjord.com" />
+    <meta property="og:site_name" content="Oliver Klingefjord"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="I'm a Hyper Island student and developer passionate about building things with real value.">
+ 
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" media="screen" />
+  
+    <!-- fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Righteous&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Scripts -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="vendors/scrolloverflow.js"></script>
+    <script type="text/javascript" src="vendors/fullPage.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>        
+    <div class="site-title">
+        <a href="index.html">&#60; OLIVER / &#62;</a>
+    </div>
+
+    <div class="image-hover">
+        <img src="me.jpg">
+    </div>
+
+    <div id="fullpage">
+
+            <div class="section active" id="section0">
+                <div class="content-wrapper">
+                    <p id="hello-emoji">Hello 👋</p>
+                    <p> I'm <strong><span class="me">Oliver Klingefjord.</span></strong> I'm a developer passionate about building things with real value.<br>
+                        Currently reinventing healthcare at <a href="https://kry.se">KRY</a>. Stationed in <strong>London</strong> 🇬🇧 / <strong>Stockholm</strong> 🇸🇪
+                </div>
+            </div>
+            <div class="section" id="section1">
+                <div class="content-wrapper">
+                    <p>I am always learning, but most familiar with native mobile and backend development. I have worked with technologies such as <strong>Swift</strong>, <strong>Kotlin</strong>, <strong>Java</strong>, <strong>JavaScript</strong>, <strong>React</strong>, <strong>Vert.x</strong> and <strong>MySQL.</strong>
+                    </p>
+                </div>
+            </div>
+            <!-- Todo add cycling image, add alp walking image etc.-->
+            <div class="section" id="section2">
+                <div class="content-wrapper">
+                    <p>When not coding, I really enjoy being in <strong>nature</strong>, <strong>road cycling</strong> and <strong>weight lifting</strong>. Also trying to teach myself how to do this <a href="https://www.kaggle.com/oliverklingefjord">machine learning</a> thing.</p>
+                </div>
+            </div>
+            <div class="section" id="section3">
+                <div class="content-wrapper">
+                    <p>Don't hesitate to <a href="#section4">reach out</a>, I'm always eager for new challenges!</p>
+                </div>
+            </div>
+            <div class="section" id="section4">
+                <div class="content-wrapper">
+                    <p>Send me an 
+                        <a href="mailto:oliver.klingefjord@hyperisland.se" target="_blank">
+                            email
+                        </a> 
+                            or connect with me on 
+                        <a href="https://www.linkedin.com/in/oliver-klingefjord-45b662105/" target="_blank">
+                            LinkedIn</a>. See my projects on 
+                        <a href="https://github.com/klingefjord" target="_blank">GitHub</a>. Then there's 
+                        <a href="https://twitter.com/realoliverkling" target="_blank">
+                            twitter,</a>
+                        <strike><a>
+                            facebook</a></strike>
+                            and 
+                        <strike><a>
+                            Instagram.</a></strike>
+                        <br><br> 
+                            Edit: Removed those accounts. 
+                            Having a bit of a SoMe detox. 🧘</p>                            
+                </div>
+            </div>
+
+        </div>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                anchors: ['s0', 's1', 's2', 's3', 's4']
+            });
+        });
+    </script>
+
+</body>
+</html>
